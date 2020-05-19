@@ -1,13 +1,7 @@
 object Fahrenheit extends App{
          
-  def convert(){
-    print("Enter Celsius value :")
-    var celsius= readDouble()
-    var fah= celsius*1.8+32.0
-    println("fahrenheit value for "+celsius+" celsius is "+fah);
-  }
-
-  convert()
+  def convert(celsius:Double)=celsius*1.8000+32.00;
+  println("fahrenheit value for "+ 35 +" celsius is "+convert(35));
 }
 
 
